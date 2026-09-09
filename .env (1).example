@@ -1,7 +1,0 @@
-# Copy to .env and fill values. Do not commit .env.
-
-BASE_URL=https://uat-api.vstv.videoready.tv
-X_API_KEY=your_x_api_key_here
-AUTHORIZATION=Bearer null
-ORIGIN=https://uat.spotvnow.com
-REFERER=https://uat.spotvnow.com/
