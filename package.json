@@ -1,0 +1,21 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "Playwright JS API sanity suite for SpotV guest APIs (from Charles .chlz)",
+  "private": true,
+  "scripts": {
+    "parse:chlz": "node scripts/parse-chlz.js",
+    "test": "playwright test",
+    "test:sanity": "playwright test tests/sanity",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "api", "sanity", "spotv"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.62.1"
+  }
+}
